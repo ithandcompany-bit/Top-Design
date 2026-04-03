@@ -54,7 +54,7 @@ modules={[Autoplay, Pagination, Navigation]}
   }}
 loop={true}
 pagination={{ clickable: true }}
-navigation
+// navigation
 className="heroSwiper"
 >
 
