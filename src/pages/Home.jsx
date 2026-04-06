@@ -1,4 +1,5 @@
 import Reveal from "../components/Reveal";
+import Whatsapp from "../components/Whatsapp";
 import "../../public/styles/Home.css"
 import HeroCarousel from "../components/HeroCarousel";
 import HomeServices from "../components/HomeServices";
@@ -36,8 +37,7 @@ function Home() {
         <h2>Welcome to Top Design</h2>
 
         <p>
-          We provide professional services in graphic design, branding, sewing and lightning protection installation.
-        </p>
+Top Design — Rooted in Rwanda, shaping safe, stylish, and sustainable solutions with creativity you can trust        </p>
 
       </motion.div>
 

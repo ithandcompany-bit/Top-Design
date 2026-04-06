@@ -55,7 +55,7 @@ function CTA(){
           })}
         </motion.p>
 
-        <Link to="/contact" className="ctaBtn">
+        <Link to="https://wa.me/250736350000" className="ctaBtn">
           Request a Quote
         </Link>
 

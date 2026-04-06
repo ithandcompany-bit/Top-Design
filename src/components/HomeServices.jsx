@@ -24,9 +24,15 @@ function HomeServices(){
     },
     {
       title: "Sewing",
-      desc: "High-quality custom clothing services.",
+      desc: "High-quality school uniforms services.",
       icon: "🧵"
     },
+
+     {
+      title: "Metallic design",
+      desc: "Metallic stylish for Exterior and interior of a building.",
+      icon: "✒"
+    }
     
   ];
 
@@ -69,7 +75,7 @@ function HomeServices(){
         whileInView={{opacity:1}}
         transition={{delay:0.6}}
       >
-        <Link to="/services">View All Services</Link>
+        <Link to="/services">View Details</Link>
       </motion.div>
 
     </section>

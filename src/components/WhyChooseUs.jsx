@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import "../../public/styles/WhyChooseUs.css";
+import Whatsapp from "./Whatsapp";
 
 
 import { Link } from "react-router-dom";
@@ -53,7 +54,9 @@ function WhyChooseUs(){
         whileInView={{opacity:1}}
         transition={{delay:0.5}}
       >
-        <Link to="/contact">Get Started</Link>
+       <Link to="https://wa.me/250736350000">
+            Get started
+            </Link>
       </motion.div>
 
     </section>
