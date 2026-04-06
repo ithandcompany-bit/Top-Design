@@ -8,7 +8,7 @@ function Metrics() {
     { value: "120+", label: "Projects Completed" },
     { value: "95%", label: "Client Satisfaction" },
     { value: "8+", label: "Years of Experience" },
-    { value: "4", label: "Services Offered" },
+    { value: "5+", label: "Services Offered" },
   ];
 
   return (

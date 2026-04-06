@@ -38,9 +38,15 @@ text: "We deliver bold prints and smart branding solutions to help your business
 
 {
 image: "/images/sewing.jpg",
-title: "Professional Sewing",
-text: "High-quality sewing services for custom clothing and textile production."
-}
+title: "Professional school uniforms sewing",
+text: "High-quality sewing services for school uniforms clothing production."
+},
+
+{
+image: "/assets/lightning.png",
+title: "Exterior and interior metallic design",
+text: "Stylish your property with the strongest material -metal."
+},
 
 ];
 

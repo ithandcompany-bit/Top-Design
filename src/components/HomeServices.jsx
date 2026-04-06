@@ -24,7 +24,7 @@ function HomeServices(){
     },
     {
       title: "Sewing",
-      desc: "High-quality school uniforms services.",
+      desc: "High-quality school uniforms production services.",
       icon: "🧵"
     },
 

@@ -22,10 +22,10 @@ const [menu, setMenu]=useState(false)
       <h2><span className="name1">Top</span> Design</h2>
 
       <div className={menu ? " links" : "view links"}>
-  <NavLink to="/" className={({ isActive }) => isActive ? "active linkItem" : "linkItem"}>Home</NavLink>
-  <NavLink to="/about" className={({ isActive }) => isActive ? "active linkItem" : "linkItem"}>About</NavLink>
-  <NavLink to="/services" className={({ isActive }) => isActive ? "active linkItem" : "linkItem"}>Services</NavLink>
-  <NavLink to="/contact" className= {({ isActive }) => isActive ? "active linkItem" : "linkItem"}>Contact</NavLink>
+  <NavLink to="/" className={({ isActive }) => isActive ? "active linkItem" : "linkItem"} onClick={menuToggler}>Home</NavLink>
+  <NavLink to="/about" className={({ isActive }) => isActive ? "active linkItem" : "linkItem"} onClick={menuToggler}>About</NavLink>
+  <NavLink to="/services" className={({ isActive }) => isActive ? "active linkItem" : "linkItem"} onClick={menuToggler}>Services</NavLink>
+  <NavLink to="/contact" className= {({ isActive }) => isActive ? "active linkItem" : "linkItem"} onClick={menuToggler}>Contact</NavLink>
 </div>
 
     </nav>

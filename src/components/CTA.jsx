@@ -4,9 +4,9 @@ import "../../public/styles/CTA.css";
 
 function CTA(){
 
-  const text = "From design and branding to sewing and electrical protection, we deliver solutions you can trust.";
+  const text = "From graphic design and branding to sewing, lightning protection and metallic design for building exterior and interior, we deliver solutions you can trust.";
 
-  const highlightWords = ["design", "branding", "sewing", "electrical"];
+  const highlightWords = ["design","graphic", "lightning", "branding", "sewing", "electrical", "metallic"];
 
   return(
     <section className="cta">

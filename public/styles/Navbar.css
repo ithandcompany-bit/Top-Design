@@ -58,11 +58,12 @@ color:#ec4899;
 .links{
     position: absolute;
     width: 200px;
-    height: 60vh;
+    height: 80vh;
     right: 0;
     top: 50px;
     z-index: 2;
     background-color: #fff;
+    border-radius: 5px;
     
 
 }
@@ -73,7 +74,7 @@ color:#ec4899;
 }
 
 .view{
-    visibility: hidden;
+    display: none;
 }
 
 }

@@ -35,6 +35,15 @@ Guided by innovation, sustainability, honesty, quality, and reliability.
 We stand out through versatility and a commitment to excellence.
 Rooted in Rwanda, we embrace innovation while growing into new markets.
       </motion.p>
+
+
+      <motion.button className="heroBtn">
+        Check our services
+      </motion.button>
+
+       <motion.button  className="heroBtnContact">
+        Contact us
+       </motion.button>
     </motion.div>
   );
 }

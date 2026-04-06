@@ -45,12 +45,12 @@
 }
 
 .heroInner h1 {
-  /* font-size: 3vw; */
+  font-size: 28px;
   margin-bottom: 20px;
 }
 
 .heroInner p {
-  /* font-size: 1vw; */
+  font-size: 22px;
   line-height: 1.6;
   margin-bottom: 30px;
 }
@@ -131,7 +131,7 @@
     top: 0%;
     clip-path: none;
     padding: 0;
-    background: rgba(0, 0, 0, 0.65);
+    background: rgba(0, 0, 0, 0.55);
     
    
    

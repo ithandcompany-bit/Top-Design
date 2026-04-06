@@ -1,15 +1,45 @@
 .about{
 padding:80px 10%;
 text-align:center;
+background-color: #2563eb0f;
 }
 
 .about h1{
 color:#2563eb;
 margin-bottom:20px;
+font-size: 28px;
 }
 
 .about p{
 max-width:700px;
 margin:auto;
 line-height:1.7;
+font-size: 22px;
+}
+
+
+.heroBtn {
+    margin-top: 30px;
+  padding: 14px 30px;
+  background: #2563eb;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+.heroBtnContact {
+     margin-top: 30px;
+  padding: 14px 30px;
+  background: #ec4899;
+  border: none;
+  margin-left: 20px;
+  border-radius: 6px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
 }
