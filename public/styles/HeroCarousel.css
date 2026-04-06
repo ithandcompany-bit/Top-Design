@@ -33,8 +33,8 @@
   clip-path: polygon( 
         20% 0%,    /* top-left inward */
     100% 0%,   /* top-right */
-    100% 100%, /* bottom-right */
-    20% 100%,  /* bottom-left inward */
+    100% 99%, /* bottom-right */
+    40% 99%,  /* bottom-left inward */
     40% 80%     /* middle-left tip */
 );
 }
@@ -66,9 +66,32 @@
   transition: 0.3s;
 }
 
+.buttonLink{
+  text-decoration: none;
+  color: #fff;
+}
+
+.heroBtnContact {
+  padding: 14px 30px;
+  background: #ec4899;
+  border: none;
+  margin-left: 20px;
+  border-radius: 6px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
 .heroBtn:hover {
+  background: #2563eb;
+}
+
+.heroBtnContact:hover {
   background: #ec4899;
 }
+
 
 /* CURVED SPLITTER */
 .curveDivider {

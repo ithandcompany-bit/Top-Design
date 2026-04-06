@@ -6,6 +6,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import { motion } from "framer-motion";
+import {Link} from "react-router-dom";
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -84,6 +85,10 @@ transition={{duration:0.8}}
 
 <button className="heroBtn">
 Explore Services
+</button>
+
+<button className="heroBtnContact">
+<Link className="buttonLink" to="#">Contact us</Link>
 </button>
 
 </motion.div>
