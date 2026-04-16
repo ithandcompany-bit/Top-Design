@@ -119,7 +119,7 @@ function Services({Language}) {
       <a href="#graphic" className="serviceHero">Graphic design</a>
       <button class="btnSer"><a href="https://wa.me/250736350000"  style={{ color: "#2563eb",
     textDecoration:" none",
-    fontWeight: "bolder"}}>{lang==="en" ? "Contact us":"Tuvugishe"}</a></button>
+    fontWeight: "bolder"}}>{lang==="eng" ? "Contact us":"Tuvugishe"}</a></button>
     </div>
 
    <div className="content" id="graphic">
@@ -145,7 +145,7 @@ return <img key={index} src={image} alt="service's image"/>
     <a href="#sewing" className="serviceHero">{lang==="en" ? "Printing & Branding" : "Printing na Branding"}</a>
       <button class="btnSer"><a to="https://wa.me/250736350000" style={{ color: "#2563eb",
     textDecoration:" none",
-    fontWeight: "bolder"}}>{lang==="en" ? "Contact us":"Tuvugishe"}</a></button>
+    fontWeight: "bolder"}}>{lang==="eng" ? "Contact us":"Tuvugishe"}</a></button>
     </div>
 
    <div className="content" id="sewing">
@@ -169,7 +169,7 @@ return <img key={index} src={image} alt="service's image"/>
 <a href="#printing" className="serviceHero">{lang==="eng" ? "School uniforms sewing" : "Kudoda imyenda y'ishuri"}</a>
       <button class="btnSer"><a href="https://wa.me/250736350000" style={{ color: "#2563eb",
     textDecoration:" none",
-    fontWeight: "bolder"}}>{lang==="en" ? "Contact us":"Tuvugishe"}</a></button>
+    fontWeight: "bolder"}}>{lang==="eng" ? "Contact us":"Tuvugishe"}</a></button>
 
     </div>
 
@@ -195,7 +195,7 @@ return <img key={index} src={image} alt="service's image"/>
 <a href="#lightning" className="serviceHero">{lang==="en" ? "Lightning Protection Installation" : "Imirindankuba"} </a>
       <button class="btnSer"><a to="https://wa.me/250736350000" style={{ color: "#2563eb",
     textDecoration:" none",
-    fontWeight: "bolder"}}>{lang==="en" ? "Contact us":"Tuvugishe"}</a></button>
+    fontWeight: "bolder"}}>{lang==="eng" ? "Contact us":"Tuvugishe"}</a></button>
     </div>
 
    <div className="content" id="lightning">
@@ -220,7 +220,7 @@ return <img key={index} src={image} alt="service's image"/>
 <a href="#metallic"  className="serviceHero">Metallic design</a>
       <button class="btnSer"><a href="https://wa.me/250736350000" style={{ color: "#2563eb",
     textDecoration:" none",
-    fontWeight: "bolder"}}>{lang==="en" ? "Contact us":"Tuvugishe"}</a></button>
+    fontWeight: "bolder"}}>{lang==="eng" ? "Contact us":"Tuvugishe"}</a></button>
     </div>
 
    <div className="content" id="metallic">

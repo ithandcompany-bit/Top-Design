@@ -21,7 +21,7 @@ function Contact() {
 
 
       <Reveal>
-        <motion.div className="contactus" style={{backgroundImage: `url(${imagePath})`,backgroundSize: "cover",  marginTop: "-70px"}}>
+        <motion.div className="contactus" style={{backgroundImage: `url(${imagePath})`}}>
 
           <motion.h1
         initial={{ opacity: 0, y: 30 }}

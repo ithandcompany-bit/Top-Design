@@ -156,7 +156,8 @@
 
   .heroInner{
     
-   margin: 0 auto;
+    
+    margin: 0 auto;
     padding-bottom: 10px;
     margin-top: 20px;
   }
@@ -186,6 +187,7 @@
   }
 
   .heroBtn, .heroBtnContact {
+    
     margin: 10px auto;
     /* display: block; */
     /* width: 80%; */
@@ -225,6 +227,7 @@
 
   .heroSlide {
     height: 50vh;
+    background-size: cover;
   }
   .heroContent {
     height: auto;
@@ -233,6 +236,7 @@
   }
 
   .heroInner{
+    width:100%;
     margin-top: 20px;
     height: 100%;
     position: relative;
@@ -245,10 +249,13 @@
     margin-bottom: 10px;
   }
   .heroBtn, .heroBtnContact {
+    
+   display: inline-block;   /* prevent full-width expansion */
+    width: auto;             /* shrink to fit content */
+    margin: 10px auto;       /* center horizontally */
     position: relative;
     font-size: 12px;
-   top: 50px;
-   padding: 0;
+    top: 48px;
    
   }
 }

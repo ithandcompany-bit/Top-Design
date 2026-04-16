@@ -8,11 +8,12 @@ text-align:center;
 .contactus{
     
     
-  height: 60vh;
-  background-position: center;
+ 
   background-size: cover;
-  height: 60vh;
-    z-index: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 60vh
+  
 }
 
 .contact h3{
@@ -76,7 +77,11 @@ font-size: 22px;
 
 
 @media (max-width: 900px) {
-  .contactus { height: 40vh; }
+  .contactus {  background-size: cover;
+   background-repeat: no-repeat;
+   height: 50vh; }
+
+
   .contactPage {
     grid-template-columns: 1fr 1fr; /* two columns on tablets */
   }
@@ -110,9 +115,7 @@ font-size: 22px;
     border-bottom: 2px solid #ec4899;
   }
 
-   .contactus{
-    height: 50vh;
-  }
+   
 }
 
 

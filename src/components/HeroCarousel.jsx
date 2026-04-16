@@ -36,12 +36,12 @@ text: lang==="eng" ? "Professional graphic design that communicates your message
 {
 image: "/assets/branding.png",
 title: lang==="eng" ? "Your Printing & Branding Partner" : "Printing na Branding",
-text: lang==="eng" ? "We deliver bold prints and smart branding solutions to help your business stand out—indoors, outdoors, and everywhere in between." : "Dufite icapiro ry'ibyapa byose kandi tunagukorera branding y'aho ukorera ndetse n'iy'ibikoresho byawe."
+text: lang==="eng" ? "We deliver bold prints and smart branding solutions to help your business stand out—indoors, outdoors, and everywhere in between." : "Dukora ibyapa by'ubwoko bwose kandi tunagukorera branding y'aho ukorera ndetse n'iy'ibikoresho byawe."
 },
 
 {
 image: "/assets/Sewing.png",
-title: lang==="eng" ? "Professional school uniforms sewing" : "Kudoda imyambaro y'ishuri ya siporo",
+title: lang==="eng" ? "Professional school uniforms sewing" : "Imyambaro y'ishuri ya siporo",
 text: lang==="eng" ? "High-quality sewing services for school uniforms clothing production." : "Tudoda imyenda y'ishuri ya siporo ikomeye kandi isa neza."
 },
 
