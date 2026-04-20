@@ -17,12 +17,8 @@ const {lang}=useContext(LanguageContext);
   return (
     <nav className="navbar">
 
-      <div className="humberger" onClick={menuToggler}>
-        <hr />
-        <hr />
-        <hr />
-      </div>
-      <h2><span className="name1">Top</span> Design</h2>
+      
+      <h2 className="name1">Top <span style={{color:"#2563eb"}}>Design</span></h2>
 
       <div className={menu ? " links" : "view links"}>
   <NavLink to="/" className={({ isActive }) => isActive ? "active linkItem" : "linkItem"} onClick={menuToggler}>{lang==="eng"?"HOME":"AHABANZA"}</NavLink>
@@ -41,7 +37,11 @@ const {lang}=useContext(LanguageContext);
   <option value="Eng">English</option>
 </select>
 </div>
-
+<div className="humberger" onClick={menuToggler}>
+        <hr />
+        <hr />
+        <hr />
+      </div>
     </nav>
   );
 }

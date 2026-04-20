@@ -59,11 +59,16 @@ color:#ec4899;
 
  }
 
+ .humberger{
+     position: absolute;
+     visibility: hidden;
+ }
+
 
 @media (max-width: 900px) {
     .humberger{
     width: 30px;
-
+    visibility: visible;
     position: absolute;
     right: 10px;
     
